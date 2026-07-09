@@ -23,10 +23,8 @@ requirements:
     - uv-build
   run:
     - python >={{ python_min }}
-    - aiormq >=6.8,<7
+    - aiormq >=7,<8
     - yarl
-    - exceptiongroup >=1.0.0,<2.0.0
-    - typing_extensions
 
 test:
   requires:
